@@ -1,0 +1,243 @@
+/* Original CSS styles */
+/* CSS for responsive image */
+
+/* CSS for responsive image */
+
+#icon{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.nav1 {
+    font-size: large;
+    color: rgb(24, 72, 56);
+    text-align: right;
+    text-decoration: none;
+    margin-top: -5px;
+}
+
+#a, #b, #c, #d, #e {
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+/* Responsive CSS styles */
+
+@media only screen and (max-width: 1200px) {
+    #a, #b, #c, #d, #e {
+        margin-right: 30px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #a, #b, #c, #d, #e {
+        margin-right: 20px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #a, #b, #c, #d, #e {
+        margin: 10px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #a, #b, #c, #d, #e {
+        margin: 5px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+/* CSS for responsive image */
+#slide
+{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+.ourproducts
+{
+  text-align: center;
+  color: rgb(62, 129, 150);
+  font-size: 250%;
+  font-family: 'Inter', sans-serif;
+}
+/* Default styles for larger screens */
+.nav2 {
+    margin-left: 250px;
+    margin-top: 28px;
+}
+
+#aa, #bb, #cc, #dd {
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 140%;
+    color: rgb(12, 12, 12);
+    font-family: 'Inter', sans-serif;
+    
+}
+
+/* Responsive styles for all screen sizes */
+@media only screen and (max-width: 1200px) {
+    .nav2 {
+        margin-left: 150px;
+    }
+    .ourproducts
+    {
+        font-size: 250%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .nav2 {
+        margin-left: 90px;
+    }
+    .ourproducts
+    {
+        font-size: 230%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav2 {
+        margin-left: -270px;
+        text-align: center;
+        font-size: 90%;
+    }
+
+    #aa, #bb, #cc, #dd {
+        margin: 10px 0;
+    }
+    .ourproducts
+    {
+        font-size: 190%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #aa, #bb, #cc, #dd {
+        margin: 5px 0;
+        font-size: 120%;
+    }
+    .ourproducts
+    {
+        font-size: 160%;
+    }
+}
+/* Common styles for all screen sizes */
+/* Common styles for all screen sizes */
+.image-slider {
+    margin-left: 40%;
+    margin-top: -250px;
+   /* float: right;*/
+    border: 2px solid black;
+    
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.slide-img {
+    width: 100%;
+    height: auto;
+    margin-left: 260px;
+    margin-top: -250px;
+   
+}
+
+.content-title {
+    font-size: 2em;
+    color: rgb(13, 14, 14);
+    float: left;
+    padding-right: 3px;
+}
+
+.content-description {
+    width: 70%;
+    text-align: justify;
+    font-size: 1.1em;
+    float: left;
+    margin-top: -10px;
+    padding-right: 3px;
+}
+
+.horizontal-line {
+    height: 170px;
+    width: 3px;
+    background-color: black;
+    margin-top: -180px;
+    margin-left: 430px;
+}
+@media only screen and (max-width: 1200px) 
+{
+    .image-slider
+    {
+           width:33%;
+           margin-left:37%;
+    }
+    .horizontal-line
+    {
+        margin-left:358px;
+    }
+   .slide-img
+   {
+    margin-top: -263px;
+    margin-left:269px;
+   }
+}
+@media only screen and (max-width: 992px) 
+{
+    .image-slider
+    {
+           width:40%;
+    }
+    .horizontal-line
+    {
+        margin-left:270px;
+    }
+    .slide-img
+    {
+     margin-top: -263px;
+     margin-left:269px;
+    }
+}
+@media only screen and (max-width: 768px) 
+{
+    .image-slider
+    {
+           width:70%;
+    }
+   
+}
+@media only screen and (max-width: 480px) 
+{
+    .image-slider
+    {
+           width:100%;
+    }
+   
+}
+
+
+

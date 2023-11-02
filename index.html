@@ -1,0 +1,78 @@
+<html>
+     <head>
+        <title>como</title> 
+        <link rel="stylesheet" href="como.css">   
+      
+    </head>
+    <body>
+        <br>
+      <img id="icon" src="https://github.com/srasraju/como1/blob/main/iconcomo.png?raw=true"  style="color: rgb(70, 138, 202);" alt="sry">
+       <br><br>
+      <nav class="nav1">
+        <a href="" id="a">About Us</a>
+        <a href="" id="b">Use Cases</a>
+        <a href="" id="c">Richmint Group</a>
+        <a href="" id="d">Agri Comodities</a>
+        <a href="" id="e">Contact Us</a>
+        </nav>
+        <br>
+        <img id="slide" src="https://github.com/srasraju/como1/blob/main/page1como.png?raw=true" alt="sry">
+        <p class="ourproducts"><b>Our Products</b></p>
+       <br><br><br><br><br>
+      
+       <nav class="nav2">
+        <a href="#" class="nav-link" id="aa" data-target="slider1">Raw Cotton1</a><br><br>
+        <a href="#" class="nav-link" id="bb" data-target="slider2">Raw Cotton2</a><br><br>
+        <a href="#" class="nav-link" id="cc" data-target="slider3">Raw Cotton3</a><br><br>
+        <a href="#" class="nav-link" id="dd" data-target="slider4">Raw Cotton4</a><br><br>
+    </nav>
+    
+    <div class="horizontal-line"></div>
+    
+    <div class="image-slider">
+        <div id="slider1" class="slider-item">
+            <p class="content-title">Raw Cotton1</p>
+            <p class="content-description">Content notably distinguishes itself by its memetic property.notably distinguishes itself by its memetic propertynotably distinguishes itself by its memetic propertynotably distinguishes itself by its memetic property..</p>
+            <img class="slide-img" src="https://github.com/srasraju/como1/blob/main/rawpage1.png?raw=true" alt="Raw Cotton 1">
+        </div>
+    
+        <div id="slider2" class="slider-item">
+            <p class="content-title">Raw Cotton2</p>
+            <p class="content-description">Traditionally, content is edited and tailnotably distinguishes itself by its memetic propertynotably distinguishes itself by its memetic propertynotably distinguishes itself by its memetic propertyored to the public...</p>
+            <img class="slide-img" src="https://github.com/srasraju/como1/blob/main/rawpage2.png?raw=true" alt="Raw Cotton 2">
+        </div>
+    
+        <div id="slider3" class="slider-item">
+            <p class="content-title">Raw Cotton3</p>
+            <p class="content-description">Content notably distinguishes notably distinguishes itself by its memetic propertynotably distinguishes itself by its memetic propertynotably distinguishes itself by its memetic propertyitself by its memetic property...</p>
+            <img class="slide-img" src="https://github.com/srasraju/como1/blob/main/rawpage1.png?raw=true" alt="Raw Cotton 3">
+        </div>
+    
+        <div id="slider4" class="slider-item">
+            <p class="content-title">Raw Cotton4</p>
+            <p class="content-description">Traditionally, content is edited notably distinguishes itself by its memetic propertynotably distinguishes itself by its memetic propertynotably distinguishes itself by its memetic propertyand tailored to the public...</p>
+            <img class="slide-img" src="https://github.com/srasraju/como1/blob/main/rawpage2.png?raw=true" alt="Raw Cotton 4">
+        </div>
+    </div>
+    
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $(".slider-item").hide(); // Hide all slider items initially
+                $("#slider1").show(); // Show the first slider item by default
+        
+                $(".nav-link").click(function (e) {
+                    e.preventDefault();
+                    var target = $(this).data("target");
+                    $(".slider-item").hide();
+                    $("#" + target).show();
+                });
+            });
+        </script>
+        
+
+        <br><br><br><br>  <br><br><br><br>  <br><br><br><br> 
+    </body>
+</html>
